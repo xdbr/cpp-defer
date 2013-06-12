@@ -11,3 +11,7 @@
 *.lai
 *.la
 *.a
+a.out
+test_defer
+test_defer.test
+testfile
