@@ -11,7 +11,7 @@
 #include <functional>
 
 namespace util {
-    
+
 // inspired by:
 // http://www.boost.org/doc/libs/1_53_0/libs/scope_exit/doc/html/scope_exit/alternatives.html
 // C++11 only.

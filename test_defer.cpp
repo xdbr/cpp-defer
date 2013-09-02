@@ -10,7 +10,7 @@
 #include <cassert>
 #include <fstream>
 
-int main() {
+auto main() -> int {
 
     std::ofstream out("testfile", std::ios::out);
 

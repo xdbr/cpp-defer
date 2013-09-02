@@ -16,7 +16,7 @@ Examples
     #include <cassert>
     #include <fstream>
 
-    int main() {
+    auto main() -> int { // C++11 only.
 
         std::ofstream out("testfile", std::ios::out);
 
@@ -25,8 +25,6 @@ Examples
         }
 
         assert(!out.is_open());
-
-        return 0;
     }
 
 Usage
